@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Contraseñas Aleatorias</title>
+</head>
+<body>
+    <h1>Generador de Contraseñas Aleatorias</h1>
+    <label for="passwordLength">Longitud de la contraseña (8-20 caracteres):</label>
+    <input type="number" id="passwordLength" min="8" max="20" step="1"><br>
+    
+    <label>Elementos a incluir en la contraseña:</label><br>
+    <input type="checkbox" id="uppercase" checked> Letras mayúsculas
+    <input type="checkbox" id="lowercase" checked> Letras minúsculas
+    <input type="checkbox" id="numbers" checked> Números
+    <input type="checkbox" id="specialChars" checked> Caracteres especiales
+
+    <button id="generatePassword">Generar Contraseña</button>
+
+    <div id="result"></div>
+
+    <script src="control_2.js"></script>
+</body>
+</html>
